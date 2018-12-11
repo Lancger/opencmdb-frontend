@@ -110,3 +110,5 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
 3.访问OpenCMDB http://www.opencmdb.cn/
+
+4.请部署OpenCMDB的后端服务，注意后端服务监听5000端口。
