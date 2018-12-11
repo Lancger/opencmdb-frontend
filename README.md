@@ -39,7 +39,7 @@ v8.12.0
 
 ```
 [root@linux-node1 ~]# cd /opt/
-[root@linux-node1 opt]# git clone git@github.com:unixhot/opencmdb-frontend.git
+[root@linux-node1 opt]# git clone https://github.com/unixhot/opencmdb-frontend.git
 
 ```
 
@@ -87,7 +87,7 @@ drwxr-xr-x    2 root root    22 Sep 15 11:35 static
 [root@linux-node1 ~]# vim /etc/nginx/conf.d/opencmdb.conf
 server {
         listen 80;
-        server_name  opencmdb.devopsedu.com;
+        server_name  www.opencmdb.cn;
 
         location / {
                 root /opt/opencmdb-frontend/dist/;
@@ -109,4 +109,4 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 
 ```
 
-3.访问OpenCMDB http://opencmdb.devopsedu.com/
+3.访问OpenCMDB http://www.opencmdb.cn/
